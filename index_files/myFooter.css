@@ -1,0 +1,99 @@
+﻿/*.content{
+            position:absolute;
+        }*/
+.main-footer {
+    background-color: transparent;
+    border-color:transparent;
+}
+.extra-holder {
+     /*position: fixed;*/
+    display: inline-block;
+    /*min-height: 70px;*/
+    height: auto;
+    padding-bottom:0px;
+    
+    
+    /*width: 100%;*/
+    overflow: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    z-index: 10000;
+    line-height: 1;
+     /*border-bottom: 1px solid #d7d7d7;*/
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    transition-duration: .2s;
+    bottom: 0px;
+    /*left: 0px;*/
+    padding-top: 10px;
+}
+
+.extra-holder-inner {
+    position: absolute;
+    display: inline-block;
+    
+}
+
+.extra-holder ul {
+    margin-bottom:0px;
+     /*margin: 0;
+    padding: 0;*/
+    
+    
+    list-style: none;
+}
+
+    .extra-holder ul li {
+        bottom: 0px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        /*padding-bottom: 0;*/
+        /*padding: 0;*/
+        display: inline-block;
+        height: auto;
+        width: 300px;
+        white-space: nowrap;
+        border-left: 1px solid #d7d7d7;
+        border-right: 1px solid #d7d7d7;
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        /*background-color: red;*/
+    }
+     
+        .extra-holder ul li.mini {
+            bottom: -43px;
+        }
+/*li.direct-chat.collapsed-box {
+    bottom: 0px;
+    height: auto;
+}*/
+
+.next {
+    margin-left: 100px !important;
+}
+
+/*.fixed .main-header,
+.fixed .main-sidebar,
+.fixed .left-side,
+.fixed .main-footer {
+    position: fixed;
+}*/
+
+
+
+/*.fixed .main-footer {
+    z-index: 1050;
+    bottom: 0;
+    width: 100%;
+    max-height: 100px;
+    height: 100px;
+    background: #cc7575;
+    padding: 15px;
+    color: #444;
+    border-top: 1px solid #d2d6de;
+    position: fixed;
+    bottom: 172px;
+}*/

@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://localhost:44395/MonyRecived/Index -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+
+
+
+        <title> - تطبيق فحص كورونا المستجد Covid-19</title>
+        <meta name="description" content="تطبيق فحص كورونا المستجد Covid-19">
+        <meta name="keywords" content="ageeb1982@gmail.com,AGEEB SOFT,عجيب سوفت,haga soft,هجا سوفت">
+        <meta name="author" content="AGEEB SOFT - haga soft">
+        <link rel="shortcut icon" href="./lab_files/favicon.ico">
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+        <!--للمراجعة-->
+        
+
+        <!-- Bootstrap 3.3.4 -->
+        <link rel="stylesheet" href="./lab_files/bootstrap.min.css">
+        <!-- Font Awesome -->
+        
+        <link rel="stylesheet" href="./lab_files/font-awesome.min.css">
+        <!-- Ionicons -->
+        
+        <link rel="stylesheet" href="./lab_files/ionicons.min.css">
+        <!-- Theme style -->
+        <link rel="stylesheet" href="./lab_files/AdminLTE.min.css">
+
+        <!-- AdminLTE Skins. Choose a skin from the css/skins
+    folder instead of downloading all of them to reduce the load. -->
+        <link rel="stylesheet" href="./lab_files/skin-blue.min.css">
+
+
+        <link rel="stylesheet" href="./lab_files/myApp.css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="~/MyThem/js/html5shiv.min.js"></script>
+        <script src="~/MyThem/js/respond.min.js"></script>
+    <![endif]-->
+        
+        <link href="./lab_files/smart_wizard.css" rel="stylesheet" type="text/css">
+
+        <!-- Optional SmartWizard theme -->
+        <link href="./lab_files/smart_wizard_theme.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="./lab_files/bootstrap-rtl.min.css">
+        <link href="./lab_files/myLayout.css" rel="stylesheet">
+        <link href="./lab_files/myFooter.css" rel="stylesheet">
+        
+        <!-- jQuery 2.1.4 -->
+        <script src="./lab_files/jQuery-2.1.4.min.js.download"></script>
+        <!-- Bootstrap 3.3.4 -->
+        <script src="./lab_files/bootstrap.min.js.download"></script>
+        <!-- SlimScroll -->
+        <script src="./lab_files/jquery.slimscroll.min.js.download"></script>
+        <!-- FastClick -->
+        <script src="./lab_files/fastclick.min.js.download"></script>
+        <!-- AdminLTE App -->
+        <script src="./lab_files/app.js.download"></script>
+        <!-- AdminLTE for demo purposes -->
+        <script src="./lab_files/demo.js.download"></script>
+        <!-- Include jQuery Validator plugin -->
+        
+        <link rel="stylesheet" href="./font/font-awesome/css/font-awesome.css">
+        <script src="./lab_files/validator.js.download"></script>
+
+        <!-- DataTables -->
+        
+
+
+    </head>
+    <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
+    <!-- the fixed layout is not compatible with sidebar-mini -->
+    <!--
+    BODY TAG OPTIONS:
+    =================
+    Apply one or more of the following classes to get the
+    desired effect
+    |---------------------------------------------------------|
+    | SKINS         | skin-blue                               |
+    |               | skin-black                              |
+    |               | skin-purple                             |
+    |               | skin-yellow                             |
+    |               | skin-red                                |
+    |               | skin-green                              |
+    |---------------------------------------------------------|
+    |LAYOUT OPTIONS | fixed                                   |
+    |               | layout-boxed                            |
+    |               | layout-top-nav                          |
+    |               | sidebar-collapse                        |
+    |               | sidebar-mini                            |
+    |---------------------------------------------------------|
+
+
+    lang="ar"
+    -->
+    <body class="sidebar-mini fixed skin-blue" dir="rtl">
+        <!--<body class="skin-blue fixed sidebar-mini" dir="rtl">-->  <!-- Site wrapper -->
+        <div class="wrapper">
+             
+            <!-- Main Header -->
+            <header class="main-header hidden-print">
+
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <!-- mini logo for sidebar mini 50x50 pixels -->
+                    <span class="logo-mini"><i class="glyphicon  glyphicon-home"></i></span>
+                    <!-- logo for regular state and mobile devices -->
+                    <span class="logo-lg"><i class="glyphicon  glyphicon-home"></i> <b>Covid </b>Lab</span>
+                </a>
+
+                <!-- Header Navbar -->
+                <nav class="navbar navbar-static-top" role="navigation">
+                    
+                    <!-- Sidebar toggle button-->
+                    <a href="index.html" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                    </a>
+                    <!-- Navbar Right Menu -->
+                    
+    <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+
+
+
+            <!-- User Account Menu -->
+            <li class="dropdown user user-menu">
+                <!-- Menu Toggle Button -->
+                <a asp-area="Identity" asp-page="/Account/Manage/PersonalData" class="dropdown-toggle" data-toggle="dropdown">
+                    <!-- The user image in the navbar-->
+                    <img src="./lab_files/favicon.ico" width="160" height="160" class="user-image" alt="User Image">
+
+
+
+                    <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                    <span class="hidden-xs"> أبوالعباس</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <!-- The user image in the menu -->
+                    <li class="user-header">
+                        <img src="./lab_files/favicon.ico" width="160" height="160" class="img-circle" alt="User Image">
+                        <p>
+                            أبوالعباس
+                            <br>
+                            <b>أبوالعباس محمد خضر عجيب</b>
+                            <small>ageeb1982@gmail.com</small>
+                        </p>
+                    </li>
+
+                    <!-- Menu Footer-->
+                    <li class="user-footer">
+                        <div class="pull-left">
+                            <a href="#" class="btn btn-default btn-flat">الملف الشخصي</a>
+
+ 
+                        </div>
+                        <div class="pull-right">
+<form action="login.html" class="navbar-right" id="logoutForm" method="GET">
+                  <a href="javascript:document.getElementById(&#39;logoutForm&#39;).submit()" class="btn btn-danger btn-flat">تسجيل الخروج</a>
+</form>                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+                </nav>
+
+
+
+
+            </header>
+            <!-- Left side column. contains the logo and sidebar -->
+            <aside class="main-sidebar hidden-print" style="height:auto">
+
+                <!-- sidebar: style can be found in sidebar.less -->
+                <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 518px;"><section class="sidebar" style="height: 518px; overflow: hidden; width: auto;">
+
+                    <!-- Sidebar user panel (optional) -->
+                    
+
+
+    <div class="user-panel">
+        <div class="pull-left image">
+            <img src="./lab_files/favicon.ico" height="160" width="160" class="img-circle" alt="User Image">
+         </div>
+        <div class="pull-left info">
+            <p><a asp-area="Identity" asp-page="/Account/Manage/PersonalData" title="Manage">مرحباً <span id="myUserName" style="color:#00c0ef">أبوالعباس</span></a></p>
+            <!-- Status -->
+            <a a="" asp-area="Identity" asp-page="/Account/Manage/PersonalData"><i class="fa fa-circle text-success"></i> Online</a>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+                    
+                        <!-- Sidebar Menu -->
+                    <ul style="padding-right: 5px;">
+                        <!-- ------------------------------------------------ -->
+                        <!-- ------------------------------------------------ -->
+                        <!-- قسم الإستقبال -->
+                            <li class="sidebar-menu treeview  " data-widget="tree">
+
+        
+        <div>
+            <a href="https://localhost:44395/MonyRecived/Index#">
+                <i class="fa fa-user"></i>
+                <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i><span class="label label-primary">3</span>  <span class="span-menu">الإستقبال</span>
+                </span>
+            </a>
+            <ul class="treeview-menu sidebar-menu" style="display:none ;">
+
+                <li class=""> <a href="https://localhost:44395/Personals/Create"><i class="fa fa-circle-o"></i><i class="fa fa-user"></i><i class="fa fa-flask"></i>فحص  جديد</a></li>
+                
+                <li class="">  <a href="https://localhost:44395/Personals/Index"><i class="fa fa-circle-o"></i><i class="fa fa-user"></i><i class="fa fa-folder-open"></i>ملف الاشخاص</a></li>
+
+
+            </ul>
+        </div>
+
+    </li>
+
+
+ ;
+                        <!-- قسم الإستقبال -->
+                        <!-- ------------------------------------------------ -->
+                        <!-- قسم الحسابات -->
+
+                            <li class="sidebar-menu treeview active menu-open" data-widget="tree">
+
+        
+
+            <div> 
+            <a href="https://localhost:44395/MonyRecived/Index#">
+                <i class="fa fa-usd"></i>
+                <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i><span class="label label-primary">3</span> <span class="span-menu">قسم الحسابات</span>
+                </span>
+            </a>
+
+                   
+            <ul class="treeview-menu sidebar-menu active menu-open" style="display:block">
+                
+                
+    <li class="has-treeview treeview active menu-open">
+        <a href="https://localhost:44395/MonyRecived/Index#">
+            <i class="fa fa-usd"></i> <i class="fa fa-flask"></i>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i><span class="label label-primary">2</span> <span class="span-menu">قسم التحصيل والإستلام</span>
+            </span>
+        </a>
+        
+
+        <ul class="treeview-menu active menu-open" style="display:block;">
+
+            <li class=""> <a href="https://localhost:44395/MonyRecived/GetNewMony"><i class="fa fa-circle-o"></i><i class="fa fa-usd"></i><i class="fa fa-flask"></i><i class="fa fa-file"></i> تحصيل/استلام مبلغ فحص</a></li>
+            <li class="active"> <a href="https://localhost:44395/MonyRecived/Index"><i class="fa fa-circle-o"></i><i class="fa fa-usd"></i><i class="fa fa-flask"></i><i class="fa fa-folder-open"></i>ملف المبالغ المستلمة</a></li>
+
+
+        </ul>
+        </li>
+
+
+
+                 
+                
+    <li class="has-treeview treeview ">
+        <a href="https://localhost:44395/MonyRecived/Index#">
+            <i class="fa fa-usd"></i><i class="fa fa-check"></i>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i><span class="label label-primary">2</span> <span class="span-menu">قسم تأكيد استلام المبالغ </span>
+            </span>
+        </a>
+        <ul class="treeview-menu " style="display:none">
+            
+            <li class=""> <a href="https://localhost:44395/MonyDone/GetNewMony"><i class="fa fa-circle-o"></i><i class="fa fa-usd"></i><i class="fa fa-check"></i><i class="fa fa-file"></i> تأكيد إستلام مبالغ جديد</a></li>
+            <li class=""> <a href="https://localhost:44395/MonyDone/Index"><i class="fa fa-circle-o"></i><i class="fa fa-usd"></i><i class="fa fa-check"></i><i class="fa fa-folder-open"></i>ملف تأكيد الإستلام</a></li>
+
+        </ul>
+    </li>  
+
+  
+
+
+                
+                
+    <li class="has-treeview treeview ">
+        <a href="https://localhost:44395/MonyRecived/Index#">
+            <i class="fa fa-usd"></i> <i class="fa fa-btc"></i>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i><span class="label label-primary">4</span> <span class="span-menu">قسم المصروفات</span>
+            </span>
+        </a>
+        <ul class="treeview-menu " style="display:none;">
+
+            <li class=""> <a href="https://localhost:44395/Massarefs/Create"><i class="fa fa-circle-o"></i><i class="fa fa-usd"></i> <i class="fa fa-btc"> </i><i class="fa fa-file"></i> مصروف جديد</a></li>
+            <li class=""> <a href="https://localhost:44395/Massarefs/Index"><i class="fa fa-circle-o"></i><i class="fa fa-usd"></i> <i class="fa fa-btc"></i> <i class="fa fa-folder-open"></i>ملف المصاريف</a></li>
+            
+            <li class=""> <a href="https://localhost:44395/Massaref_Type/Create"><i class="fa fa-circle-o"></i> <i class="fa fa-usd"></i> <i class="fa fa-money"></i> <i class="fa fa-file"></i> نوع مصروف جديد</a></li>
+            <li class=""> <a href="https://localhost:44395/Massaref_Type/Index"><i class="fa fa-circle-o"></i>  <i class="fa fa-usd"></i> <i class="fa fa-money"></i> <i class="fa fa-folder-open"></i>ملف أنواع المصاريف</a></li>
+
+        </ul>
+    </li>
+
+
+
+
+
+                
+                
+
+
+
+
+
+
+
+            </ul>
+        </div>
+    </li>
+;
+                        <!-- قسم الحسابات -->
+                        <!-- قسم المعمل -->
+                             <li class="sidebar-menu treeview " data-widget="tree">
+
+        
+
+            <div> 
+            <a href="https://localhost:44395/MonyRecived/Index#">
+                <i class="fa fa-flask"></i>
+                <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i><span class="label label-primary">3</span> <span class="span-menu">قسم المعامل</span>
+                </span>
+            </a>
+
+                   
+            <ul class="treeview-menu sidebar-menu " style="display:none">
+                
+                
+    <li class="has-treeview treeview ">
+        <a href="https://localhost:44395/MonyRecived/Index#">
+            <i class="fa fa-flask"></i><i class="fa fa-share"></i>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i><span class="label label-primary">2</span> <span class="span-menu">قسم أخذ العينات </span>
+            </span>
+        </a>
+        <ul class="treeview-menu " style="display:none">
+
+            <li class=""> <a href="https://localhost:44395/Lab/GetTakeSample"><i class="fa fa-circle-o"></i><i class="fa fa-flask"></i><i class="fa fa-share"></i><i class="fa fa-file"></i>استلام العينة من الشخص</a></li>
+            <li class=""> <a href="https://localhost:44395/Lab/Index_TakeSample"><i class="fa fa-circle-o"></i><i class="fa fa-flask"></i><i class="fa fa-share"></i><i class="fa fa-folder-open"></i> قائمة العينات المستلمة</a></li>
+
+        </ul>
+    </li>  
+
+  
+
+                
+
+                
+                
+    <li class="has-treeview treeview ">
+        <a href="https://localhost:44395/MonyRecived/Index#">
+            <i class="fa fa-flask"></i><i class="fa fa-pencil"></i>
+                <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i><span class="label label-primary">2</span> <span class="span-menu">قسم تسجيل نتائج الفحوصات</span>
+                </span>
+        </a>
+        <ul class="treeview-menu " style="display:none;">
+
+            
+            <li class=""> <a href="https://localhost:44395/Lab/GetNewResult"><i class="fa fa-circle-o"></i><i class="fa fa-flask"></i><i class="fa fa-pencil"><i class="fa fa-file"></i></i>تسجيل نتيجة فحص</a></li>
+            <li class=""> <a href="https://localhost:44395/Lab/Index_ResultSample"><i class="fa fa-circle-o"></i><i class="fa fa-flask"></i><i class="fa fa-pencil"></i><i class="fa fa-folder-open"></i> قائمة النتائج المفحوصة</a></li>
+
+
+        </ul>
+    </li>
+
+
+
+                
+
+                
+                
+    <li class="has-treeview treeview ">
+        <a href="https://localhost:44395/MonyRecived/Index#">
+            <i class="fa fa-flask"></i><i class="fa fa-print"></i>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i><span class="label label-primary">2</span> <span class="span-menu">قسم طباعة النتائج ا لمفحوصة</span>
+            </span>
+        </a>
+        
+
+        <ul class="treeview-menu " style="display:none;">
+
+            <li class="">  <a href="https://localhost:44395/Lab/GetNewPrintResult"><i class="fa fa-circle-o"></i><i class="fa fa-flask"></i><i class="fa fa-print"></i><i class="fa fa-file"></i>طباعة نتيجة</a></li>
+            <li class="">  <a href="https://localhost:44395/Lab/Index_Printed"><i class="fa fa-circle-o"></i><i class="fa fa-flask"></i><i class="fa fa-print"></i><i class="fa fa-folder-open"></i>قائمة النتائج المطبوعة</a></li>
+
+        </ul>
+        </li>
+
+
+
+                
+
+
+
+
+
+
+
+            </ul>
+        </div>
+    </li>
+;
+                        <!-- قسم المعمل -->
+                        <!-- قسم التقارير -->
+                             <li class="sidebar-menu treeview " data-widget="tree">
+       
+        <div class="">
+            <a href="https://localhost:44395/MonyRecived/Index#">
+                <i class="fa fa-bar-chart"></i>
+                <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i><span class="label label-primary">6</span>  <span class="span-menu">بقية التقارير</span>
+                </span>
+            </a>
+            <ul class="treeview-menu" style="display:none ;">
+
+                <li class=""> <a href="https://localhost:44395/Lab/Create"><i class="fa fa-circle-o"></i><i class="fa fa-bar-chart"></i><i class="fa fa-flask"></i> نتائج الفحص</a></li>
+                <li class="">  <a href="https://localhost:44395/Lab/Srch_Result"><i class="fa fa-circle-o"></i><i class="fa fa-bar-chart"></i><i class="fa fa-flask"></i>بحث عن نتيجة</a></li>
+                <li class="">  <a href="https://localhost:44395/Lab/Print_Result"><i class="fa fa-circle-o"></i><i class="fa fa-bar-chart"></i><i class="fa fa-flask"></i>طباعة نتيجة</a></li>
+                <li class=""> <a href="https://localhost:44395/Reports/Index"><i class="fa fa-circle-o"></i><i class="fa fa-bar-chart"></i><i class="fa fa-flask"></i>ابادة العينات</a></li>
+                <li class=""> <a href="https://localhost:44395/Reports/Index"><i class="fa fa-circle-o"></i><i class="fa fa-bar-chart"></i><i class="fa fa-usd"></i>حركة الخزينة</a></li>
+                <li class=""> <a href="https://localhost:44395/Reports/Index"><i class="fa fa-circle-o"></i><i class="fa fa-bar-chart"></i><i class="fa fa-usd"></i>حركة المشتريات</a></li>
+                <li class=""> <a href="https://localhost:44395/Reports/Index"><i class="fa fa-circle-o"></i><i class="fa fa-bar-chart"></i><i class="fa fa-usd"></i>حركة المصروفات</a></li>
+                <li class=""> <a href="https://localhost:44395/Reports/Index"><i class="fa fa-circle-o"></i><i class="fa fa-bar-chart"></i><i class="fa fa-usd"></i>حركة الإيرادات</a></li>
+
+
+            </ul>
+        </div>
+    </li>
+
+;
+                        <!-- قسم التقارير -->
+                        <!-- ------------------------------------------------ -->
+                        <!-- قسم مستخدمين النظام -->
+                        
+    <li class="sidebar-menu treeview  " data-widget="tree">
+       
+        <div class="">
+            <a href="https://localhost:44395/MonyRecived/Index#">
+                <i class="fa fa-users"></i> 
+                <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i><span class="label label-primary">2</span> <span class="span-menu">مستخدمين النظام</span>
+                </span>
+            </a>
+
+            <ul class="treeview-menu">
+                <li class=""><a href="https://localhost:44395/Account/Register"><i class="fa fa-circle-o"></i><i class="fa fa-file"></i><i class="fa fa-user"></i>مستخدم جديد</a></li>
+                <li class=""><a href="https://localhost:44395/Account/Index"><i class="fa fa-circle-o"></i><i class="fa fa-folder-open"></i><i class="fa fa-user"></i>ملف المستخدمين</a></li>
+            </ul>
+        </div>
+    </li>
+;
+                        <!-- قسم مستخدمين النظام -->
+                        <!-- ------------------------------------------------ -->
+                        <!-- قسم إدارة النظام -->
+                            <li class="sidebar-menu treeview  " data-widget="tree">
+       
+        <div class="">
+
+            <a href="https://localhost:44395/MonyRecived/Index#">
+                <i class="fa fa-cogs"></i> 
+                                           <span class="pull-right-container">
+                                               <i class="fa fa-angle-left pull-right"></i><span class="label label-primary">2</span> <span class="span-menu">الإعدادات الإدارية</span>
+                                           </span>
+            </a>
+            <ul class="treeview-menu" style="display:;">
+                
+                <li class=""><a href="https://localhost:44395/MonyRecived/Index#"><i class="fa fa-circle-o"></i><i class="fa fa-cogs"></i> <i class="fa fa-tasks"></i> إعدادات النظام</a></li>
+                <li class=""><a href="https://localhost:44395/MonyRecived/Index#"><i class="fa fa-circle-o"></i><i class="fa fa-cogs"></i>  <i class="fa fa-clone"></i> فروع الشركة</a></li>
+                
+            </ul>
+        </div>
+    </li>
+;
+                        <!-- قسم إدارة النظام -->
+                        <!-- ------------------------------------------------ -->
+                    </ul>
+
+
+                </section><div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.2); width: 3px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 518px;"></div><div class="slimScrollRail" style="width: 3px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+                <!-- /.sidebar -->
+            </aside>
+
+            <!-- =============================================== -->
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper" style="min-height: 568px;">
+                <!-- Content Header (Page header) -->
+                <section class="content-header hidden-print">
+                    <h1 class="margin-50">
+                        
+                        <small></small>
+                    </h1>
+
+
+                    <ol class="breadcrumb text-bold">
+                        <li><a href="index.html"><i class="fa fa-dashboard"></i> الصفحة الرئيسية</a></li>
+                            <li><a asp-controller="MonyRecived" asp-action="index"></a></li>
+                                            </ol>
+                </section>
+
+                <!-- Main content  style="height: 1150px;-->
+                <section class="content">
+                    
+
+
+<form action="https://localhost:44395/MonyRecived/Index" method="post">    <div class="form-inline hidden-print">
+
+        <label class="hidden-print col-lg-1 col-md-1 col-xs-1 col-sm-1" for="">ابحث</label>
+        <input class="hidden-print col-lg-5 col-md-5 col-xs-5 col-sm-5" id="Srch" name="Srch" placeholder="يمكن البحث عن بالQR أو رقم الهوية أو اسم الشخص أو رقم هاتفه" type="text" value="">
+
+        <input class="btn btn-primary hidden-print hidden-print col-lg-1 col-md-1 col-xs-1 col-sm-1" type="submit" value="أبحث">
+    </div>
+     <hr class="hidden-print">
+</form>
+
+
+<table class="table table-bordered table-striped dataTable table-hover table-responsive DataTableX">
+
+    <thead>
+        <tr>
+            <th>
+                كود الملف
+            </th>
+            <th>
+                التاريخ
+            </th>
+
+            <th>
+                اسم الشخص
+            </th>
+            <td>
+                تاريخ الميلاد
+            </td>
+
+            <td>
+                العمر
+            </td>
+            <td>
+                اسم البلد
+            </td>
+            <th>
+                اسم الفحص
+            </th>
+            <th>
+                قيمة الفحص
+            </th>
+
+
+
+            
+        </tr>
+    </thead>
+
+    <tbody>
+    </tbody>
+    <tfoot></tfoot>
+</table>
+
+                    <hr>
+                </section><!-- /.content -->
+
+
+
+
+            </div><!-- /.content-wrapper -->
+
+        </div><!-- ./wrapper -->
+
+
+
+        <script>
+
+            Date.prototype.yyyymmdd = function () {
+                var mm = this.getMonth() + 1; // getMonth() is zero-based
+                var dd = this.getDate();
+
+                return [this.getFullYear(),
+                (mm > 9 ? '' : '0') + mm,
+                (dd > 9 ? '' : '0') + dd
+                ].join('/');
+            };
+
+
+
+
+            Date.prototype.ddmmyyyyhhmmss = function () {
+                var mm = this.getMonth() + 1; // getMonth() is zero-based
+                var dd = this.getDate();
+                var hh = this.getHours();
+                var min = this.getMinutes();
+                var ss = this.getSeconds();
+
+                var datex = [(mm > 9 ? '' : '0') + mm,
+                (dd > 9 ? '' : '0') + dd,
+                this.getFullYear(),
+
+                ].join('/');
+                return datex + " " + hh + ":" + min + " " + ss;
+
+            };
+
+
+
+
+
+
+            $(function () {
+
+
+
+                //// var mainChat = $("#mainChat");
+
+                //  var mainChat = window.document.getElementById("mainChat");
+
+                // //mainChat.resize(resize);
+                // mainChat.onresize = resize();
+                // var mainChatChild = window.document.getElementById("mainChatChild");
+                // mainChatChild.onresize = resize();
+
+                var msgGroup = window.document.getElementById("msgGroup");
+                msgGroup.onresize = resize();
+                // $(".oneChat").resize(resize);
+                var oneChat = window.document.getElementsByClassName("oneChat");
+                oneChat.onresize = resize();
+
+                var Ii = 0;
+                function resize(e) {
+                    //   alert($('.oneChat').hasClass('collapsed-box'));
+
+                    //alert(e);
+                    try {
+                        Ii = Ii + 1;
+                        var log = window.document.getElementById("log");
+                        log.textContent = "NoOfTry:" + Ii + "- Main H:" + this.innerHeight + "===  Main W:" + this.innerWidth;
+                    } catch (r) { }
+
+                };
+
+
+                //      $(".extra-holder-inner").bind("resize", function () {
+                //          alert(this.height);
+                //});
+
+
+                //   $(".fa-minus").click(function () {
+                //    alert("****-----");
+                //    var hH=$(".extra-holder-inner").height()
+                //     if (hH < 380) { $(".extra-holder").height(hH);}
+                //    $("html, body").animate({ scrollTop: $(document).height() - $(window).height() });
+
+                //  // $(this). parent().parent().height = 350;
+                //});
+
+                //$(".fa-minus").click(function () {
+                //    alert($(this).parent().parent().parent().parent().parent().html());
+                //    $(this).parent().parent().parent().parent().addClass("mini");
+                //});
+
+                //$(".fa-plus").click(function () {
+                //    alert($(this).parent().parent().parent().parent().parent().html());
+                //    $(this).parent().parent().removeClass("mini");
+                //});
+
+
+                $("#mainChat,#msgGroup").click(function () {
+                    //  $(".oneChat").addClass("collapsed-box");
+                });
+
+                $(".fa-plus,.fa-minus").click(function () {
+
+                    // alert("classList:"+this.classList +"<br>"+ "IsPlus There:"+this.classList.contains("fa-plus"));
+
+
+                    var hH = $(".extra-holder-inner").height()
+                    //if (hH < 380) { $(".extra-holder").height(hH); }
+                    //alert(hH);
+                    //$(".extra-holder").height(380);
+
+                    //if (this.classList.contains("fa-plus")) {
+                    //    //  alert("fa-plus");
+                    //    $("#mainChat").height(380);
+                    //    $(".oneChat ").css("bottom", "0px");
+                    //    $(".oneChat.collapsed-box").css("bottom", "0px");
+                    //}
+                    //else {
+                    //    var Hchild = $("#msgGroup");
+                    //    var heightX = $(Hchild).height();
+
+                    //    $("#mainChat").height(51);
+                    //    $(".oneChat ").css("bottom", "0px");
+                    //    $(".oneChat.collapsed-box").css("bottom", "0px");
+
+                    //    //$(".oneChat").css("bottom","0");
+
+
+
+
+                    //}
+
+                    // alert("----");
+                    //$("fa-plus").
+                    // $(".extra-holder").height(hH);
+                    // alert($(this).parent().parent().height());
+                    //$("html, body").animate({ scrollTop: $(document).height() - $(window).height() });
+                });
+
+
+
+
+                //$(".extra-holder").resize(changeX);
+                //$(".extra-holder")[0].resize(changeX);
+
+
+
+                function changeX(e) { alert(e + "\\\\|||2|||////"); };
+
+                //        $(".extra-holder").resize(function (e) {
+                //            alert("\\\\||||||////");
+                //            //$(".extra-holder").height(380);
+                //            //$("html, body").animate({ scrollTop: $(document).height() - $(window).height() });
+
+                //            //alert($(this).parent().parent().height());
+                //        });
+                //        var hH=$(".extra-holder-inner").height()
+                //        if (hH < 380) {
+                //            alert("h:"+ hH);
+                //            $(".extra-holder").height(hH);
+                //            $("html, body").animate({ scrollTop: $(document).height() - $(window).height() });
+                //}
+
+                //        var previousHeight = jQuery("#myDiv").height();
+
+                //$("#myDiv").resize(function(e){
+                //    // do something when element resizes
+                //    if(previousHeight < jQuery(this).height()){
+                //        alert("now I'm bigger");
+                //    }else{
+                //        alert("Now I'm smaller");
+                //    }
+                //    //update previousHeight for next use
+                //    previousHeight = jQuery(this).height();
+                //});
+                //box.parent.parentElement.parentElement.height = 350;
+                //        $('.fa-plus').on('click', '.add_sub_option', function(e){
+                //    e.preventDefault();
+                //alert($(this).parent().parent().parent().parent().parent().parent().parent().attr('id'));
+
+                //            alert($(this).closest('tbody').closest('.table-bordered').attr('id'));
+
+
+
+
+
+
+            });
+        </script>
+
+
+
+
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+
+
+                $('.form-control[data-val="true"]').prevUntil($(this)).append('<span style="color:red"> *</span>');
+                $('[required]').prevUntil($(this)).append('<span style="color: red"> *</span>');
+
+
+                
+                $('.DataTableX').DataTable({
+                    "paging": true,
+                    "lengthChange": false,
+                    "searching": false,
+                    "ordering": true,
+                    "info": true,
+                    "autoWidth": false
+                });
+            
+
+
+
+
+                //function AjX(myUrl, myObj, myType, myRes) {
+                //    //var Res =
+                //    $.ajax({
+                //        url: myUrl,
+                //        type: myType, //Get,Post
+                //        contentType: "application/json; charset=utf-8",
+                //        data: myObj,
+                //        success: function (response) {
+                //            window.console.log(response);
+
+                //            var list = GetList(response);
+                //            $(myRes).html(list);
+
+
+                //        },
+                //        error: function (xhr) {
+                //            window.console.error(xhr);
+                //            $(myRes).html(xhr);
+                //        }
+                //    });
+
+            });
+
+
+        </script>
+
+        
+        <!-- Optionally, you can add Slimscroll and FastClick plugins.
+            Both of these plugins are recommended to enhance the
+            user experience. Slimscroll is required when using the
+            fixed layout. -->
+    
+
+<!------------------------------------------النهاية--------------------------------------->
+</body></html>
